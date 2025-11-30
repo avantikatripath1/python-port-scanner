@@ -1,11 +1,11 @@
-# 🔎 Python Port Scanner
+#  Python Port Scanner
 
 A simple yet powerful **multi-threaded port scanner** written in Python.  
 This tool scans a target host for open TCP ports and attempts to grab service banners.
 
 ---
 
-## ✨ Features
+##  Features
 - ✅ Multi-threaded scanning (fast + efficient)  
 - ✅ Banner grabbing (detects running services if available)  
 - ✅ Customizable port range (default: 1–1024)  
@@ -14,14 +14,14 @@ This tool scans a target host for open TCP ports and attempts to grab service ba
 
 ---
 
-## ⚙️ Installation
+##  Installation
 Clone the repository and install dependencies:
 bash:
 git clone https://github.com/avantikatripath1/python-port-scanner.git
 cd python-port-scanner
 pip install -r requirements.txt
 
-## 🚀 Usage
+##  Usage
 
 Run the scanner with:
 
@@ -36,13 +36,13 @@ Scanning target scanme.nmap.org (45.33.32.156) from port 20 to 100...
 [OPEN] 45.33.32.156:22 | OpenSSH 6.6.1
 [OPEN] 45.33.32.156:80 | Apache httpd
 
-## 📂 Project Structure
+##  Project Structure
 .
 ├── scanner.py       # Main port scanner script
 ├── LICENSE          # License file
 ├── .gitignore       # Ignore Python cache & environment files
 
-## 📜 License
+##  License
 
 This project is licensed under the MIT License.
 Feel free to use, modify, and share!
